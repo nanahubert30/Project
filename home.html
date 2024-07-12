@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <title>management system</title>
+    <link rel="stylesheet" href="./css/home.css">
+    
+    <style>
+        #image {
+            transition: transform 0.3s ease;
+        }
+        
+        #image:hover {
+            transform: scale(1.1); /* Example: Scale the image by 10% on hover */
+        }
+        </style>        
+</head>
+<body>   
+    <header>
+        <nav class="navbar navbar-expand-sm bg-black fixed-top flex-column" >
+            <div class="container ">
+                <a class="navbar-brand" href="#">
+                    <img src="logo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
+                  </a>
+                  <ul class="navbar-nav fs-4" >
+                    <li class="nav-item">
+                        <a class="nav-link  active text-white" href="#">Home</a>
+                    </li>
+                    <li class="nav-item" id="nav">
+                        <a class="nav-link active text-white" href="#">Meun</a>
+                    </li>
+
+                    <li class="nav-item" id="nav">
+                        <a class="nav-link active text-white" href="#">Gallery</a>
+                    </li>
+
+                    <li class="nav-item" id="nav">
+                        <a class="nav-link active text-white" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item" id="nav">
+                        <a class="nav-link active text-white" href="#">Contact Us</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-auto fs-4">
+                    <li class="nav-item" id="nav">
+                        <a class="nav-link  text-white" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" id="nav" href="#">Sign Up</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+
+    <div class="container p-5 mt-4">
+        <div class="d-flex align-items-center">
+          <div>
+            <h1 class="display-4 fw-bold fs-0 text-body-emphasis" >Great <span class="text-success">Marketing</span><br>
+                        For Manage Shop</h1>
+            <p class="fs-3 lead">Make your sales increase with centealized management starting 
+                from uploading product, updating shock, taking orders to managing customer data at 
+                Golden!</p>
+            <button type="button" class="btn btn-outline-success">
+                <a href="#" class="btn">Get Started</a>
+            </button>
+          </div>
+          <img src="./images/13.png" style="width:600px" class="img-fluid me-3" alt="Responsive image">
+        </div>
+    </div>
+
+    <!--about-->
+
+    <div class="container p-5 mt-4">
+        <div class="d-flex ">
+            <img src="./images/14.png" style="width:600px" class="img-fluid me-3" alt="Responsive image">
+          <div>
+                <h1 class="text-success fs-0 fw-bolder" style="font-size:5rem"><span class="text-black">About</span> Us</h1>
+                <h3 class="fs-2" >why should you <span class="text-success" >choose us</span></h3>
+                <p class="fs-3 lead"> Integrate your customer data from all Sakoo channels so that you are always 
+                    connected and informed about your customers' orders, loyalty programs, and
+                    other relevant data and your customers where they are.
+                </p>
+                <button type="button" class="btn btn-outline-success">
+                    <a href="#" class="btn">Fast Delivery</a>
+                </button>
+    
+                <button type="button" class="btn btn-outline-success">
+                    <a href="#" class="btn">Easy Payments</a>
+                </button>
+    
+                <button type="button" class="btn btn-outline-success">
+                    <a href="#" class="btn">24/7 Sevive</a>
+                </button>
+    
+                <button type="button" class="btn btn-outline-success">
+                    <a href="#" class="btn">Order Now</a>
+                </button>
+          </div>
+        </div>
+    </div>
+
+
+    <!--OUR MENU-->
+
+    <div class="container mt-4 d-flax " style="padding-top: 5.5%;">
+        <h1 class="display-4 fw-bold fs-0 fw-bold text-center ">Our <span class="text-success">Menu</span></h1>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 gap-3">
+            <div class="card" style="width:400px">
+
+                <div style="width:100%" class="mt-4  overflow-hidden">
+                    <img id="image" class="card-img-top" src="./images/food r.jpg" alt="Card image">
+                </div>
+
+                <div class="card-body text-center">
+                    <h4 class="card-title">Food</h4>
+                    <p class="card-text">Some example text some 5example text. John Doe is an architect and engineer.</p>
+                    <h4>$20.00</h4>
+                    <div class="menu_icon text-danger">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <div class="text-center">
+                        <a href="#" class="btn btn-success">Buy now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="width:400px">
+                <div style="width:100%" class="mt-4  overflow-hidden">
+                    <img id="image" class="card-img-top" src="./images/9.jpg" alt="Card image">
+                </div>
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Food</h4>
+                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                        <h4>$20.00</h4>
+                        <div class="menu_icon text-center text-danger">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Buy now</a>
+                        </div>
+                    </div>
+            </div>
+
+                <div class="card" style="width:400px">
+                    <div style="width:100%" class="mt-4  overflow-hidden">
+                        <img id="image" class="card-img-top" src="./images/8.jpg" alt="Card image">
+                    </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Food</h4>
+                            <p class="card-text">Some example text some 5example text. John Doe is an architect and engineer</p>
+                            <h4>$20.00</h4>
+
+                            <div class="menu_icon text-danger">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Buy Now</a>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="card" style="width:400px">
+                    <div style="width:100%" class="mt-4  overflow-hidden">
+                        <img id="image" class="card-img-top" src="./images/7.jpg" alt="Card image">
+                    </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Food</h4>
+                            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                            <h4>$20.00</h4>
+                            <div class="menu_icon text-center text-danger">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+    
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="card" style="width:400px">
+                    <div style="width:100%" class="mt-4  overflow-hidden">
+                        <img id="image" class="card-img-top" src="./images/4.jpg" alt="Card image">
+                    </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Food</h4>
+                            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                            <h4>$20.00</h4>
+                            <div class="menu_icon text-center text-danger">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+    
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="card" style="width:400px">
+                    <div style="width:100%" class="mt-4  overflow-hidden">
+                        <img id="image" class="card-img-top" src="./images/5.jpg" alt="Card image">
+                    </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Food</h4>
+                            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                            <h4 cl>$20.00</h4>
+                            <div class="menu_icon text-center text-danger">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+    
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                </div>
+        </div>
+    </div>
+
+    
+
+    <!--Gallery-->
+
+    <div class="gallery container mt-4 " style="padding-top: 5.5%;">
+        <h1>Our<span>Gallery</span></h1>
+        <div class="gallery_image_box">
+            <div class="gallery_image">
+                <img src="images/8.jpg"  height="350PX">
+                <h3>food</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Libero quia est cum.
+                </p>
+                <a href="" class="gallery_btn">Order Now</a>
+            </div>
+
+            <div class="gallery_image">
+                <img src="images/food r1.jpg"  width="350px">
+                <h3>food</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Libero quia est cum.
+                </p>
+                <a href="" class="gallery_btn">Order Now</a>
+            </div>
+            <div class="gallery_image">
+                <img src="images/12.jpg"  width="350PX">
+                <h3>food</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Libero quia est cum.
+                </p>
+                <a href="" class="gallery_btn">Order Now</a>
+            </div>
+
+            <div class="gallery_image">
+                <img src="images/4.jpg"  width="350PX">
+                <h3>food</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Libero quia est cum.
+                </p>
+                <a href="" class="gallery_btn">Order Now</a>
+            </div>
+
+            <div class="gallery_image">
+                <img src="images/10.jpg"  width="350PX">
+                <h3>food</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Libero quia est cum.
+                </p>
+                <a href="" class="gallery_btn">Order Now</a>
+            </div>
+
+            <div class="gallery_image">
+                <img src="images/6.png"  width="350PX" height="350PX">
+                <h3>food</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Libero quia est cum.
+                </p>
+                <a href="" class="gallery_btn">Order Now</a>
+            </div>
+        </div>
+    </div>    
+
+    <!--customer Review-->
+
+    <div class="container mt-4" style="padding-top: 5.5%;">
+        <h5 class=" h5  fs-1 text-center fw-bold" >Customer <span style="font-weight: bold" class="text-success">Review</span></h5>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 gap-3">
+
+            <div class="card" style="width:400px">
+            <img class="card-img-top rounded p-4 mt-4 ls" src="./images/1.jpg" alt="Card image" style="width:90%">
+                <div class="card-body">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                </div>
+            </div>
+
+            <div class="card" style="width:400px">
+                <img class="card-img-top rounded p-4 mt-4" src="./images/2.jpg" alt="Card image" style="width:90%">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                    </div>
+            </div>
+
+                <div class="card" style="width:400px">
+                    <img class="card-img-top rounded p-4 mt-4 img-circle" src="./images/3.jpg" alt="Card image" style="width:90%">
+                        <div class="card-body">
+                            <h4 class="card-title">John Doe</h4>
+                            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                        </div>
+                </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+     div.
+    <footer class="bg-dark text-white py-5">
+        <div class="container fs-4">
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <h5 class="fw-bold fs-2">User</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Home</a></li>
+                        <li><a href="#" class="text-white">Menu</a></li>
+                        <li><a href="#" class="text-white">Our Team</a></li>
+                        <li><a href="#" class="text-white">About Us</a></li>
+                        <li><a href="#" class="text-white">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h5 class="fw-bold fs-2">Get Help</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">FAQ</a></li>
+                        <li><a href="#" class="text-white">Shipping</a></li>
+                        <li><a href="#" class="text-white">Returns</a></li>
+                        <li><a href="#" class="text-white">Order Status</a></li>
+                        <li><a href="#" class="text-white">Payment Options</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h5 class="fw-bold fs-2">Online order</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Watch</a></li>
+                        <li><a href="#" class="text-white">Bag</a></li>
+                        <li><a href="#" class="text-white">Food</a></li>
+                        <li><a href="#" class="text-white">Any food</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <h5 class="fw-bold fs-2">Follow</h5>
+                    <ul class="d-flex gap-3 list-unstyled">
+                        <li><a href="#" class="fs-4 "><i class="fa-brands fa-facebook text-white"></i></a></li>
+                        <li><a href="#" class="fs-4 "><i class="fa-brands fa-google text-white"></i></a></li>
+                        <li><a href="#" class="fs-4 "><i class="fa-brands fa-instagram text-white"></i></a></li>
+                        <li><a href="#" class="fs-4 "><i class="fa-brands fa-linkedin text-white"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

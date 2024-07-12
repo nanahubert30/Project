@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+    #image {
+        transition: transform 0.3s ease;
+    }
+    
+    #image:hover {
+        transform: scale(1.1); /* Example: Scale the image by 10% on hover */
+    }
+    </style>      
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-black fixed-top flex-column" >
+            <div class="container ">
+                <a class="navbar-brand" href="#">
+                    <img src="logo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
+                  </a>
+                <ul class="navbar-nav fs-4" >
+                    <li class="nav-item">
+                        <a class="nav-link  active text-white" href="#">Home</a>
+                    </li>
+                    <li class="nav-item" id="nav">
+                        <a class="nav-link active text-white" href="#">Meun</a>
+                    </li>
+
+                    <li class="nav-item" id="nav">
+                        <a class="nav-link active text-white" href="#">Gallery</a>
+                    </li>
+
+                    <li class="nav-item" id="nav">
+                        <a class="nav-link active text-white" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item" id="nav">
+                        <a class="nav-link active text-white" href="#">Contact Us</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-auto fs-4">
+                    <li class="nav-item" id="nav">
+                        <a class="nav-link  text-white" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" id="nav" href="#">Sign Up</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+
+   <!-- <div class="container p-5 mt-3">
+        <div class="mt-5 pt-4">
+            <div class="mt-4 p-5 bg-success text-white rounded text-center">
+                <h1 class="fw-bold fs-0">Our Menu</h1>
+            </div>
+        </div>
+    </div>-->
+
+
+
+    <!--OUR MENU-->
+
+    <div class="container mt-3 d-flax">
+            <div class="mt-5 pt-4">
+                <div class="mt-4 p-5 bg-success text-white rounded text-center">
+                    <h1 class="fw-bold fs-0">Our Menu</h1>
+                </div>
+            </div>
+
+       <!-- <h1 class="display-4 fw-bold fs-0 fw-bold text-center ">Our <span class="text-success">Menu</span></h1>-->
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 gap-3">
+            <div class="card" style="width:400px">
+
+                <div style="width:100%" class="mt-4  overflow-hidden">
+                    <img id="image" class="card-img-top" src="./images/food r.jpg" alt="Card image">
+                </div>
+
+                <div class="card-body text-center">
+                    <h4 class="card-title">Food</h4>
+                    <p class="card-text">Some example text some 5example text. John Doe is an architect and engineer.</p>
+                    <h4>$20.00</h4>
+                    <div class="menu_icon text-danger">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                    <div class="text-center">
+                        <a href="#" class="btn btn-success">Buy now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="width:400px">
+                <div style="width:100%" class="mt-4  overflow-hidden">
+                    <img id="image" class="card-img-top" src="./images/9.jpg" alt="Card image">
+                </div>
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Food</h4>
+                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                        <h4>$20.00</h4>
+                        <div class="menu_icon text-center text-danger">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Buy now</a>
+                        </div>
+                    </div>
+            </div>
+
+                <div class="card" style="width:400px">
+                    <div style="width:100%" class="mt-4  overflow-hidden">
+                        <img id="image" class="card-img-top" src="./images/8.jpg" alt="Card image">
+                    </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Food</h4>
+                            <p class="card-text">Some example text some 5example text. John Doe is an architect and engineer</p>
+                            <h4>$20.00</h4>
+
+                            <div class="menu_icon text-danger">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Buy Now</a>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="card" style="width:400px">
+                    <div style="width:100%" class="mt-4  overflow-hidden">
+                        <img id="image" class="card-img-top" src="./images/7.jpg" alt="Card image">
+                    </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Food</h4>
+                            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                            <h4>$20.00</h4>
+                            <div class="menu_icon text-center text-danger">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+    
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="card" style="width:400px">
+                    <div style="width:100%" class="mt-4  overflow-hidden">
+                        <img id="image" class="card-img-top" src="./images/4.jpg" alt="Card image">
+                    </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Food</h4>
+                            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                            <h4>$20.00</h4>
+                            <div class="menu_icon text-center text-danger">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+    
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="card" style="width:400px">
+                    <div style="width:100%" class="mt-4  overflow-hidden">
+                        <img id="image" class="card-img-top" src="./images/5.jpg" alt="Card image">
+                    </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Food</h4>
+                            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                            <h4 cl>$20.00</h4>
+                            <div class="menu_icon text-center text-danger">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+    
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                </div>
+
+
+                <div class="card" style="width:400px">
+
+                    <div style="width:100%" class="mt-4  overflow-hidden">
+                        <img id="image" class="card-img-top" src="./images/food r.jpg" alt="Card image">
+                    </div>
+    
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Food</h4>
+                        <p class="card-text">Some example text some 5example text. John Doe is an architect and engineer.</p>
+                        <h4>$20.00</h4>
+                        <div class="menu_icon text-danger">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+    
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width:400px">
+
+                    <div style="width:100%" class="mt-4  overflow-hidden">
+                        <img id="image" class="card-img-top" src="./images/food r.jpg" alt="Card image">
+                    </div>
+    
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Food</h4>
+                        <p class="card-text">Some example text some 5example text. John Doe is an architect and engineer.</p>
+                        <h4>$20.00</h4>
+                        <div class="menu_icon text-danger">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+    
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width:400px">
+
+                    <div style="width:100%" class="mt-4  overflow-hidden">
+                        <img id="image" class="card-img-top" src="./images/food r.jpg" alt="Card image">
+                    </div>
+    
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Food</h4>
+                        <p class="card-text">Some example text some 5example text. John Doe is an architect and engineer.</p>
+                        <h4>$20.00</h4>
+                        <div class="menu_icon text-danger">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+    
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width:400px">
+
+                    <div style="width:100%" class="mt-4  overflow-hidden">
+                        <img id="image" class="card-img-top" src="./images/food r.jpg" alt="Card image">
+                    </div>
+    
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Food</h4>
+                        <p class="card-text">Some example text some 5example text. John Doe is an architect and engineer.</p>
+                        <h4>$20.00</h4>
+                        <div class="menu_icon text-danger">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+    
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width:400px">
+
+                    <div style="width:100%" class="mt-4  overflow-hidden">
+                        <img id="image" class="card-img-top" src="./images/food r.jpg" alt="Card image">
+                    </div>
+    
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Food</h4>
+                        <p class="card-text">Some example text some 5example text. John Doe is an architect and engineer.</p>
+                        <h4>$20.00</h4>
+                        <div class="menu_icon text-danger">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+    
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width:400px">
+
+                    <div style="width:100%" class="mt-4  overflow-hidden">
+                        <img id="image" class="card-img-top" src="./images/food r.jpg" alt="Card image">
+                    </div>
+    
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Food</h4>
+                        <p class="card-text">Some example text some 5example text. John Doe is an architect and engineer.</p>
+                        <h4>$20.00</h4>
+                        <div class="menu_icon text-danger">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+    
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width:400px">
+
+                    <div style="width:100%" class="mt-4  overflow-hidden">
+                        <img id="image" class="card-img-top" src="./images/food r.jpg" alt="Card image">
+                    </div>
+    
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Food</h4>
+                        <p class="card-text">Some example text some 5example text. John Doe is an architect and engineer.</p>
+                        <h4>$20.00</h4>
+                        <div class="menu_icon text-danger">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+    
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width:400px">
+
+                    <div style="width:100%" class="mt-4  overflow-hidden">
+                        <img id="image" class="card-img-top" src="./images/food r.jpg" alt="Card image">
+                    </div>
+    
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Food</h4>
+                        <p class="card-text">Some example text some 5example text. John Doe is an architect and engineer.</p>
+                        <h4>$20.00</h4>
+                        <div class="menu_icon text-danger">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+    
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width:400px">
+
+                    <div style="width:100%" class="mt-4  overflow-hidden">
+                        <img id="image" class="card-img-top" src="./images/food r.jpg" alt="Card image">
+                    </div>
+    
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Food</h4>
+                        <p class="card-text">Some example text some 5example text. John Doe is an architect and engineer.</p>
+                        <h4>$20.00</h4>
+                        <div class="menu_icon text-danger">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+    
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width:400px">
+
+                    <div style="width:100%" class="mt-4  overflow-hidden">
+                        <img id="image" class="card-img-top" src="./images/food r.jpg" alt="Card image">
+                    </div>
+    
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Food</h4>
+                        <p class="card-text">Some example text some 5example text. John Doe is an architect and engineer.</p>
+                        <h4>$20.00</h4>
+                        <div class="menu_icon text-danger">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+    
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width:400px">
+                    <div style="width:100%" class="mt-4  overflow-hidden">
+                        <img id="image" class="card-img-top" src="./images/9.jpg" alt="Card image">
+                    </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Food</h4>
+                            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                            <h4>$20.00</h4>
+                            <div class="menu_icon text-center text-danger">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+    
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="card" style="width:400px">
+                    <div style="width:100%" class="mt-4  overflow-hidden">
+                        <img id="image" class="card-img-top" src="./images/9.jpg" alt="Card image">
+                    </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Food</h4>
+                            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                            <h4>$20.00</h4>
+                            <div class="menu_icon text-center text-danger">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+    
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                </div>
+        </div>
+    </div>
+
+
+
+     <!-- Footer -->
+     <footer class="bg-dark text-white py-5">
+        <div class="container fs-4">
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <h5 class="fw-bold fs-2">User</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Home</a></li>
+                        <li><a href="#" class="text-white">Menu</a></li>
+                        <li><a href="#" class="text-white">Our Team</a></li>
+                        <li><a href="#" class="text-white">About Us</a></li>
+                        <li><a href="#" class="text-white">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h5 class="fw-bold fs-2">Get Help</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">FAQ</a></li>
+                        <li><a href="#" class="text-white">Shipping</a></li>
+                        <li><a href="#" class="text-white">Returns</a></li>
+                        <li><a href="#" class="text-white">Order Status</a></li>
+                        <li><a href="#" class="text-white">Payment Options</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h5 class="fw-bold fs-2">Online order</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Watch</a></li>
+                        <li><a href="#" class="text-white">Bag</a></li>
+                        <li><a href="#" class="text-white">Food</a></li>
+                        <li><a href="#" class="text-white">Any food</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <h5 class="fw-bold fs-2">Follow</h5>
+                    <ul class="d-flex gap-3 list-unstyled">
+                        <li><a href="#" class="fs-4 "><i class="fa-brands fa-facebook text-white"></i></a></li>
+                        <li><a href="#" class="fs-4 "><i class="fa-brands fa-google text-white"></i></a></li>
+                        <li><a href="#" class="fs-4 "><i class="fa-brands fa-instagram text-white"></i></a></li>
+                        <li><a href="#" class="fs-4 "><i class="fa-brands fa-linkedin text-white"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
